@@ -1,1 +1,26 @@
-bvhbhbvh hv h
+alert-iam not defining main method here beacause everyone knows how to do it further remaing part of cod....
+
+
+----here this prefix symbol represent starting part of the code
+////here this sufix symbol represent ending line of the code
+
+------two sum leetcode problem
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+            for(int i=0;i<nums.length;i++){
+                for(int j=i+1;j<nums.length;j++){
+                    if(nums[i]+nums[j]==target){
+                        return new int[] {i,j};
+                    }
+                }
+            }
+        return new int[] {};    
+    }
+////}
+
+
+
+
+
+
+        
